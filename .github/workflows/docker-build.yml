@@ -23,8 +23,3 @@ jobs:
       - name: Build Docker image
         run: |
           docker build -t myusername/my-ml-image:latest .
-
-      # Push image to Docker Hub (optional)
-      - name: Push Docker image
-        run: |
-          docker push myusername/my-ml-image:latest
